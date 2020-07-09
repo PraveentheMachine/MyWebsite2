@@ -8,7 +8,7 @@
 
     // Check the data.
     if (empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("Location: https://www.praveenbandarage.me?success=-1#section-form");
+        header("Location: https://www.praveenbandarage.me");
         exit;
     }
 
@@ -30,6 +30,6 @@
     mail($recipient, $subject, $email_content, $email_headers);
     
     // Redirect to the index.html page with success code
-    header("Location: https://www.praveenbandarage.me?success=1#section-form");
+    header("Location: https://www.praveenbandarage.me");
 
 ?>
