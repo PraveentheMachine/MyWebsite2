@@ -219,7 +219,7 @@ header {
 
 
 
-/* Main navi */
+/* Main navigation */
 
 .main-nav {
     float: right;
@@ -251,7 +251,7 @@ header {
 }
 
 
-/* Mobile navi */
+/* Mobile navigation */
 .mobile-nav-icon {
     float: right;
     margin-top: 30px;
@@ -381,7 +381,7 @@ header {
 /* ----------------------------------------------- */
 /* FORM */
 /* ----------------------------------------------- */
-
+/*
 .contact-form {
     width: 60%;
     margin: 0 auto;
@@ -406,7 +406,7 @@ input[type=checkbox] {
 }
 
 *:focus {outline: none;}
-
+/*
 
 /* ----------------------------------------------- */
 /* FOOTER */
